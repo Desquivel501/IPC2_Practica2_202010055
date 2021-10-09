@@ -28,7 +28,7 @@
             <i class="bi bi-arrow-bar-up"></i>
         </a> 
 
-        <div class="container-fluid"> 
+        <!-- <div class="container-fluid"> 
             <div class="row flex-nowrap">
                 <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
                     <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
@@ -77,7 +77,66 @@
 
                         </ul>
                     </div>
+                </div> -->
+                
+                <!-- <a class="menubtn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</a> -->
+
+                <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft" id="menubtn" title="Go to top">
+                    <i class="bi bi-three-dots-vertical"></i>
+                </a> 
+                
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasLeftLabel" style="font-size:2rem !important;">Currículum Web</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <img src="assets/cat.jpg" class="img-thumbnail">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <a href="#about">
+                                     <span class= "menu" data-bs-dismiss="offcanvas">Acerca de Mi</span>
+                                </a>
+                                
+                            </li>
+                            
+                            <li class="list-group-item">
+                                <a href="#experience">
+                                    <span class= "menu" data-bs-dismiss="offcanvas">Experiencia</span>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item">
+                                <a href="#education">
+                                    <span class= "menu" data-bs-dismiss="offcanvas">Educacion</span>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item">
+                                <a href="#skills">
+                                    <span class= "menu" data-bs-dismiss="offcanvas">Habilidades</span>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item">
+                                <a href="#interests">
+                                    <span class= "menu" data-bs-dismiss="offcanvas">Intereses</span>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item">
+                                <a href="#awards">
+                                    <span class= "menu" data-bs-dismiss="offcanvas">Reconocimientos</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
+                                
+
+
+
                 <div>
                     <section class="resume-section" id="about">
                         <div class="resume-section-content">
@@ -140,31 +199,31 @@
 
                     <hr class="m-0" />
                     <section class="resume-section" id="education">
-                        <div class="resume-section-content">
+                        <div class="resume-section-content" style="width: 100%">
                             <h2 class="mb-5 text-primary">Education</h2>
                             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">Instituto Tecnológico de Massachusetts</h3>
+                                    <h3 class="mb-0" style="padding-right:30px">Instituto Tecnológico de Massachusetts</h3>
                                     <div class="subheading mb-3">Licenciatura en Ingeniería en Ciencias y Sistemas</div>
                                     <div>Promedio: 90.5</div>
                                 </div>
-                                <div class="flex-shrink-0" style="margin-left: 400px;"><span class="text-primary">Enero 2010 - Junio 2014</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary">Enero 2010 - Junio 2014</span></div>
                             </div>
                             &nbsp;
                             <div class="d-flex flex-column flex-md-row justify-content-between">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">Liceo Guatemala</h3>
+                                    <h3 class="mb-0" style="padding-right:30px">Liceo Guatemala</h3>
                                     <div class="subheading mb-3">Bachiller en Ciencias y Letras</div>
                                     <p>Promedio: 93.6</p>
                                 </div>
-                                <div class="flex-shrink-0" style="margin-left: 400px;"><span class="text-primary">Enero 2006 - Octubre 2010</span></div>
+                                <div class="flex-shrink-0 float-right"><span class="text-primary">Enero 2006 - Octubre 2010</span></div>
                             </div>
                         </div>
                     </section>
                     
                     <hr class="m-0" />
                     <section class="resume-section" id="skills">
-                        <div class="resume-section-content">
+                        <div class="resume-section-content" style="width: 100%">
                             <h2 class="mb-5 text-primary">Habilidades</h2>
                             <div class="subheading mb-3">Lenguajes de Programacion</div>
                             <div class="lenguage-icons">
